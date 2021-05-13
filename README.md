@@ -14,8 +14,8 @@ first four steps here: https://www.jetbrains.com/help/idea/enabling-cucumber-sup
 
 ## Configuration
 
-Be sure that the `--glue` is set correctly in `build.gradle`. To the package name,
-where the implementations are found.
+Configuration is found in 
 
-    args = ['--plugin', 'pretty', '--glue', 'com.icconsult.examples.cucumber', 'src/test/resources']
+    src/test/resources/cucumber.properties
 
+Possible configuration properties: https://cucumber.io/docs/cucumber/api/
