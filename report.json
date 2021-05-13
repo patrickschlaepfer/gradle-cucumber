@@ -1,0 +1,511 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-05-13T19:34:46.505Z",
+        "line": 12,
+        "name": "Counting beer cans",
+        "description": "",
+        "id": "beer-cans;counting-beer-cans;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1815000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I have \"123\" beer cans",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"123\"",
+                  "offset": 7
+                }
+              ],
+              "location": "com.icconsult.examples.cucumber.BeerMyStepdefs.iHaveBeerCans(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 171000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I have drunk \"50\" beer cans",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"50\"",
+                  "offset": 13
+                }
+              ],
+              "location": "com.icconsult.examples.cucumber.BeerMyStepdefs.iHaveDrunkBeerCans(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 34000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I go to my fridge",
+            "match": {
+              "location": "com.icconsult.examples.cucumber.BeerMyStepdefs.iGoToMyFridge()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 83000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I should have \"73\" beer cans",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"73\"",
+                  "offset": 14
+                }
+              ],
+              "location": "com.icconsult.examples.cucumber.BeerMyStepdefs.iShouldHaveBeerCans(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-05-13T19:34:46.550Z",
+        "line": 13,
+        "name": "Counting beer cans",
+        "description": "",
+        "id": "beer-cans;counting-beer-cans;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 91000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I have \"1\" beer cans",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"1\"",
+                  "offset": 7
+                }
+              ],
+              "location": "com.icconsult.examples.cucumber.BeerMyStepdefs.iHaveBeerCans(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 71000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I have drunk \"1\" beer cans",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"1\"",
+                  "offset": 13
+                }
+              ],
+              "location": "com.icconsult.examples.cucumber.BeerMyStepdefs.iHaveDrunkBeerCans(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 25000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I go to my fridge",
+            "match": {
+              "location": "com.icconsult.examples.cucumber.BeerMyStepdefs.iGoToMyFridge()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 54000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I should have \"0\" beer cans",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"0\"",
+                  "offset": 14
+                }
+              ],
+              "location": "com.icconsult.examples.cucumber.BeerMyStepdefs.iShouldHaveBeerCans(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Beer cans",
+    "description": "  Lorem ipsum",
+    "id": "beer-cans",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/BeerCans.feature",
+    "tags": []
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 79000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "a user searches for an item",
+            "match": {
+              "location": "com.icconsult.examples.cucumber.JiraStepdefs.aUserSearchesForAnItem()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 30000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "item is unavailable/out of stock",
+            "match": {
+              "location": "com.icconsult.examples.cucumber.JiraStepdefs.itemIsUnavailableOutOfStock()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-05-13T19:34:46.556Z",
+        "line": 10,
+        "name": "user subscribes to in-stock notification successfully",
+        "description": "  Bill is shopping for item X and it is out of stock",
+        "id": "user-can-subscribe-to-a-notification-when-an-item-is-in-stock;user-subscribes-to-in-stock-notification-successfully",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 84000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "the \u0027Add to cart\u0027 button changes to \u0027Notify me when in-stock\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027Add to cart\u0027",
+                  "offset": 4
+                },
+                {
+                  "val": "\u0027Notify me when in-stock\u0027",
+                  "offset": 36
+                }
+              ],
+              "location": "com.icconsult.examples.cucumber.JiraStepdefs.theAddToCartButtonChangesToNotifyMeWhenInStock(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 24000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Bill has a proper email address associated with his account",
+            "match": {
+              "location": "com.icconsult.examples.cucumber.JiraStepdefs.billHasAProperEmailAddressAssociatedWithHisAccount()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 23000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Bill selects that button",
+            "match": {
+              "location": "com.icconsult.examples.cucumber.JiraStepdefs.billSelectsThatButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 23000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "he is subscribed to be notified when item X is in-stock",
+            "match": {
+              "location": "com.icconsult.examples.cucumber.JiraStepdefs.heIsSubscribedToBeNotifiedWhenItemXIsInStock()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@BDDSTORY-SC-2"
+          },
+          {
+            "name": "@BDDTEST-SC-3"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2021-05-13T19:34:46.563Z",
+        "line": 19,
+        "name": "user receives proper error if subscription fails",
+        "description": "",
+        "id": "user-can-subscribe-to-a-notification-when-an-item-is-in-stock;user-receives-proper-error-if-subscription-fails",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [],
+        "tags": [
+          {
+            "name": "@BDDSTORY-SC-2"
+          },
+          {
+            "name": "@BDDTEST-SC-4"
+          }
+        ]
+      }
+    ],
+    "name": "User can subscribe to a notification when an item is in-stock",
+    "description": "User can subscribe to be notified when an unvaialble item returns to our stock",
+    "id": "user-can-subscribe-to-a-notification-when-an-item-is-in-stock",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/User%20can%20subscribe%20to%20a%20notification%20when%20an%20item%20is%20in-stock.feature",
+    "tags": [
+      {
+        "name": "@BDDSTORY-SC-2",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-05-13T19:34:46.567Z",
+        "line": 11,
+        "name": "Today is or is not Friday",
+        "description": "",
+        "id": "is-it-friday-yet?;today-is-or-is-not-friday;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 198000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "today is \"Friday\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Friday\"",
+                  "offset": 9
+                }
+              ],
+              "location": "com.icconsult.examples.cucumber.Stepdefs.today_is(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 43000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I ask whether it\u0027s Friday yet",
+            "match": {
+              "location": "com.icconsult.examples.cucumber.Stepdefs.i_ask_whether_it_s_Friday_yet()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1067000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I should be told \"TGIF\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"TGIF\"",
+                  "offset": 17
+                }
+              ],
+              "location": "com.icconsult.examples.cucumber.Stepdefs.i_should_be_told(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-05-13T19:34:46.574Z",
+        "line": 12,
+        "name": "Today is or is not Friday",
+        "description": "",
+        "id": "is-it-friday-yet?;today-is-or-is-not-friday;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 106000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "today is \"Sunday\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sunday\"",
+                  "offset": 9
+                }
+              ],
+              "location": "com.icconsult.examples.cucumber.Stepdefs.today_is(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 37000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I ask whether it\u0027s Friday yet",
+            "match": {
+              "location": "com.icconsult.examples.cucumber.Stepdefs.i_ask_whether_it_s_Friday_yet()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 46000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I should be told \"Nope\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Nope\"",
+                  "offset": 17
+                }
+              ],
+              "location": "com.icconsult.examples.cucumber.Stepdefs.i_should_be_told(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-05-13T19:34:46.577Z",
+        "line": 13,
+        "name": "Today is or is not Friday",
+        "description": "",
+        "id": "is-it-friday-yet?;today-is-or-is-not-friday;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 90000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "today is \"anything else!\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"anything else!\"",
+                  "offset": 9
+                }
+              ],
+              "location": "com.icconsult.examples.cucumber.Stepdefs.today_is(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 28000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I ask whether it\u0027s Friday yet",
+            "match": {
+              "location": "com.icconsult.examples.cucumber.Stepdefs.i_ask_whether_it_s_Friday_yet()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 58000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I should be told \"Nope\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Nope\"",
+                  "offset": 17
+                }
+              ],
+              "location": "com.icconsult.examples.cucumber.Stepdefs.i_should_be_told(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Is it Friday yet?",
+    "description": "  Everybody wants to know when it\u0027s Friday",
+    "id": "is-it-friday-yet?",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/is_it_friday_yet.feature",
+    "tags": []
+  }
+]
